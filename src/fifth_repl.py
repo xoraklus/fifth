@@ -53,7 +53,7 @@ class Fifth:
                     x = self.pop()
                     print(chr(x))
                 else:
-                    print("'towo' needs atleast 1 item on the stack.")
+                    print("'fifth' needs atleast 1 item on the stack.")
                     pass
             elif cmd == "quit":
                 raise KeyboardInterrupt("quit")
